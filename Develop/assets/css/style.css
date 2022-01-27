@@ -1,3 +1,4 @@
+/* applies to elements and body styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,9 @@
 body {
     background-color: #d9dcd6;
 }
+/* applies to elements and body styles */
+
+/* header styles */
 
 .header {
     padding: 20px;
@@ -29,7 +33,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .header div ul {
@@ -49,11 +53,11 @@ a {
 p {
     font-size: 16px;
 }
+/* Header styles end */
 
-
-/* benefit-section-strip*/
+/* hero style start */
 .hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -63,6 +67,9 @@ p {
     align-items: flex-start;
     background-attachment: fixed;
 }
+/* hero style end */
+
+/* hero-strip start positon*/
 .hero-strip{
     height: 800px;
     width: 100%;
@@ -74,7 +81,6 @@ p {
     background-attachment: fixed;
 }
 .benfit-layers{
-    float:left;
     margin-right:25px;
     padding: 20px;
     clear: both;
@@ -86,9 +92,11 @@ p {
     margin-left:20px;
     clear: both;
     float: left;
+    margin-bottom: 25px;
+
 
 }
-/* end of benefit-section-strip*/
+
 
 .float-left {
     float: left;
@@ -105,66 +113,41 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* benefit-lead styling background */
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 15px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 25%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    margin-bottom: 100%;
+    padding-bottom: 70%;
+    
 }
-
 
 .benefit-lead ,.benefit-brand ,.benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
 
 .benefit-lead ,.benefit-brand ,.benefit-cost {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
 .benefit-lead img,.benefit-brand img,.benefit-cost img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* end of benefit-lead styling background */
 
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
+/* styling for befits div */
 .search-engine-optimization ,
 .online-reputation-management,
 .social-media-marketing  {
@@ -174,26 +157,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: block;
+    margin: 15px auto;
 }
-
-/* .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
- 
 
 .search-engine-optimization img,
 .online-reputation-management img,
@@ -201,54 +167,38 @@ p {
     max-height: 200px;
 }
 
-/* .online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-} */
 
 .benefit-lead h2 ,.benefit-brand h2 ,.benefit-cost h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* styling end befits div */
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-/* footer Styles start */
+/* hero-strip end positon*/
+
+/* footer Styles end */
 .footer {
-    padding:35px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-align: center;
     align-items: center;
     background-size: 100%;
     justify-content: center;
     display: flex;
-    flex: 1;
     min-height: 50vh;
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 35px;
+    flex: 1 1 0%;
 }
 
 
 .footer h2 {
     font-size: 20px;
-    margin: 10;
-}
-.footer div{
-    line-height: 1.5;
-    text-align: justify;
 }
 
-/* footer Styles end */
+
+
 /* style section tags */
 .section{
     padding: 60px;
