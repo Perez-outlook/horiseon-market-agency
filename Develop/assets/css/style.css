@@ -82,10 +82,10 @@ p {
 
 }
 .benefits{
-    float:right;
+    float:left;
     margin-left:20px;
     clear: both;
-    float: right;
+    float: left;
 
 }
 /* end of benefit-section-strip*/
@@ -223,14 +223,34 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 } */
-
+/* footer Styles start */
 .footer {
-    padding: 30px;
+    padding:35px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    align-items: center;
+    background-size: 100%;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+    flex-direction: column; 
 }
+
 
 .footer h2 {
     font-size: 20px;
+    margin: 10;
 }
+.footer div{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* footer Styles end */
+/* style section tags */
+.section{
+    padding: 60px;
+}
+/* style section end tags */
